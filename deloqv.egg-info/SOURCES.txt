@@ -4,6 +4,7 @@ setup.py
 deloqv/Algorithme.py
 deloqv/MAP.py
 deloqv/Pr_dist.py
+deloqv/Test.py
 deloqv/__init__.py
 deloqv/data_cleaning.py
 deloqv.egg-info/PKG-INFO

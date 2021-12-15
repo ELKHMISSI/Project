@@ -26,7 +26,7 @@ df = pd.read_csv('./coordonnees_clean.csv')
 
 #Importation du tableau des prix entre chaque gares de péages
 
-ur2 = 'https://raw.githubusercontent.com/ELKHMISSI/Project/main/Distribution_des_Prix/prices_clean.csv'
+ur2 = 'https://raw.githubusercontent.com/ELKHMISSI/Project/main/data/prices_clean.csv'
 path = os.path.join(os.getcwd(),'prices_clean.csv')
 download(ur2, path, replace=True)
 dp = pd.read_csv('./prices_clean.csv')

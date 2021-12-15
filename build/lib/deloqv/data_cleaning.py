@@ -2,6 +2,7 @@
 import numpy as np
 import pandas as pd
 from download import download
+import csv
 import os
 
 
@@ -9,12 +10,12 @@ import os
 ur1 = 'https://raw.githubusercontent.com/ELKHMISSI/Project/main/data/coordonnees_algo.csv'
 path = os.path.join(os.getcwd(),'coordonnees_algo.csv')
 download(ur1, path, replace=True)
-df = pd.read_csv('./coordonnees_algo.csv')
+df = pd.read_csv('./coordonnees_algo.csv',sep=",")
 
 ur2 = 'https://raw.githubusercontent.com/ELKHMISSI/Project/main/data/price_algo.csv'
 path = os.path.join(os.getcwd(),'price_algo.csv')
 download(ur2, path, replace=True)
-dp = pd.read_csv('./price_algo.csv')
+dp = pd.read_csv('./price_algo.csv',sep=";")
 
 
 #%%

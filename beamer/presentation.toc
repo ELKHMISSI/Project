@@ -1,0 +1,16 @@
+\babel@toc {french}{}\relax 
+\beamer@sectionintoc {1}{Le package \texttt {deloqv}}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{A savoir}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{Fonctionnalites}{5}{0}{1}
+\beamer@sectionintoc {2}{Etapes de realisation du package \texttt {deloqv}}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{Preparation des donnees}{7}{0}{2}
+\beamer@subsectionintoc {2}{2}{Création de la Map}{9}{0}{2}
+\beamer@subsectionintoc {2}{3}{Algorithme du chemin le moins cher}{13}{0}{2}
+\beamer@subsectionintoc {2}{4}{Distribution des prix}{21}{0}{2}
+\beamer@sectionintoc {3}{Presentaion de la Doc}{24}{0}{3}
+\beamer@subsectionintoc {3}{1}{Problem}{25}{0}{3}
+\beamer@subsectionintoc {3}{2}{Install}{26}{0}{3}
+\beamer@subsubsectionintoc {3}{2}{1}{Aspect github}{26}{0}{3}
+\beamer@subsubsectionintoc {3}{2}{2}{Packages utlies}{26}{0}{3}
+\beamer@subsectionintoc {3}{3}{Contact and Sources}{27}{0}{3}
+\beamer@sectionintoc {4}{Synthese}{27}{0}{4}

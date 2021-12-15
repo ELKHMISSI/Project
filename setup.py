@@ -3,7 +3,7 @@ import os
 import deloqv
 
 setup(name = 'deloqv',
-      version = '0.0.1',
+      version = '0.1.1',
       url='https://github.com/ELKHMISSI/Project.git',
       author = 'EL KHMISSI, NIASSE, FONTANA',
       author_email = 'mohamed.el-khmissi01@etu.umontpellier.fr',

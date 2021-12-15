@@ -14,7 +14,7 @@ path = os.path.join(os.getcwd(),'coordonnees_clean.csv')
 download(ur1, path, replace=True)
 df = pd.read_csv('./coordonnees_clean.csv')
 
-ur2 = 'https://raw.githubusercontent.com/ELKHMISSI/Project/main/Distribution_des_Prix/prices_clean.csv'
+ur2 = 'https://raw.githubusercontent.com/ELKHMISSI/Project/main/data/prices_clean.csv'
 path = os.path.join(os.getcwd(),'prices_clean.csv')
 download(ur2, path, replace=True)
 dp = pd.read_csv('./prices_clean.csv')
@@ -444,34 +444,9 @@ def chemin_moins_cher(Depart,arrivee,Nb_sortie):
 
 # %%
 interact(chemin_moins_cher, Depart=list(range(0,36)),arrivee=list(range(0,36)),Nb_sortie=list(range(0,22)))
-#%%
-chemin_moins_cher(3,23,1)
-
-# %%
-chemin_moins_cher(3,9,0)
-# %%
-chemin_moins_cher(9,35,1)
-# %%
-chemin_moins_cher(18,7,1)
-# %%
-chemin_moins_cher(2,3,0)
-# %%
-chemin_moins_cher(0,12,0)
-# %%
-chemin_moins_cher(0,7,0)
-# %%
-chemin_moins_cher(6,7,0)
 
 #%%
 chemin_moins_cher(3,15,3)
 
-
-# %%
-
-# %%
-
-# %%
-
-# %%
 
 # %%
